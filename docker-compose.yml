@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mark-detect-line-bot:
+    build: ""
+    ports:
+      - 9005:9005
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
